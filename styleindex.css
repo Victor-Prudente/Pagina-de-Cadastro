@@ -1,0 +1,173 @@
+html,body {
+    height: 100%;
+}
+
+    
+html{
+    padding: 0;
+    margin: auto;
+    display: table;
+    
+}
+
+body{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+main{
+    display: flex;
+    align-items: center;
+}
+
+.bem_vindo {
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    width: 289px;
+    height: 500px;
+    background-color: #579AFF;
+    border-radius: 26px 0px 0px 26px;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25);
+    color: whitesmoke;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 40px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.entrar{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 182px;
+    height: 50px;
+    background-color: #579AFF;
+    margin-top: 100px;
+    color: whitesmoke;
+    font-size: 16px;
+    font-style: normal;
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.btn_fisica{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 182px;
+    height: 50px;
+    margin-top: 300px;
+    background-color: #579AFF;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: 1px solid #333;
+}
+
+.btn_juridica{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 182px;
+    height: 50px;
+    margin-left: 600px;
+    background-color: #579AFF;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: 1px solid #333;
+}
+
+.cadastrar {
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    width: 944px;
+    height: 500px;
+    background-color: #FFFFFF;
+    border-radius: 0px 26px 26px 0px;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+
+}
+
+/*
+CODIGO DA PARTE AZUL
+position: absolute;
+width: 289px;
+height: 661px;
+left: 3001px;
+top: 151px;
+
+background: #579AFF;
+border-radius: 26px 0px 0px 26px;
+-------------------------------------------------
+CODIGO PARTE BRANCA
+position: absolute;
+width: 944px;
+height: 661px;
+left: 3001px;
+top: 151px;
+
+background: #FFFFFF;
+box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25);
+border-radius: 26px;
+-----------------------------------------------------
+TODO QUADRADO (MAIN)
+position: absolute;
+width: 944px;
+height: 661px;
+left: 3009px;
+top: 146px;
+-----------------------------------------------------
+FONT FAMILY
+font-family: 'Poppins';
+--------------------------------------------------------
+AREA DOS CADASTROS PESSOA FISICA E JURIDICA
+position: absolute;
+width: 525px;
+height: 50px;
+left: 3360px;
+top: 451px;
+-------------------------------------------
+ENTRAR
+ENTRAR PF
+position: absolute;
+width: 182px;
+height: 50px;
+left: 3066px;
+top: 596px;
+-------------------------------------------
+ENTRAR PJ
+position: absolute;
+width: 182px;
+height: 50px;
+left: 3062px;
+top: 728px;
+------------------------------------
+CADASTRAR PF E PJ
+position: absolute;
+width: 525px;
+height: 50px;
+left: 3360px;
+top: 451px;
+
+DROP SHADOW
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+*/
