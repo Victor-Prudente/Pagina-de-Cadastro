@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styletestejuridica.css">
+    <title>Página de Cadastro</title>
+</head>
+<body>
+    <header>
+        <h1>Pessoa Jurídica</h1>
+    </header>
+    <h2>* campos obrigatórios</h2>
+    <section>
+        <form class="formulario" method="post" action="">
+            <div class="nome_fantasia">
+                <label for="nome_fantasia"><span>* </span>Nome fantasia</label>
+                <input type="text" name="nome_fantasia" id="nome_fantasia" placeholder="Digite o nome fantasia" required>
+            </div>
+            <div class="razao_social">
+                <label for="razao_social"><span>* </span>Razão social</label>
+                <input type="text" name="razao_social" id="razao_social" placeholder="Digite a razão social" required>
+            </div>
+            <div class="cnpj">
+                <label for="cnpj"><span>* </span>CNPJ</label>
+                <input type="number" name="cnpj" id="cnpj" placeholder="Digite o CNPJ" required>
+            </div>
+            <div class="cnae">
+                <label for="cnae">CNAE</label>
+                <input type="text" name="cnae" id="cnae" placeholder="Digite o CNAE">
+            </div>
+            <div class="inscricao_estadual">
+                <label for="inscricao_estadual"><span>* </span>Inscrição Estadual</label>
+                <input type="number" name="inscricao_estadual" id="inscricao_estadual" placeholder="Digite a Inscrição Estadual" required>
+            </div>
+            <div class="inscricao_municipal">
+                <label for="inscricao_municipal">Inscrição Municipal</label>
+                <input type="number" name="inscricao_municipal" id="inscricao_municipal" placeholder="Digite a Inscrição Municipal">
+            </div>
+            <div class="btn">
+                <input type="submit" value="Enviar">
+            </div>
+            <a href="./index.html" target="_self"><div class="voltar">Voltar</div></a>
+        </form>
+    </section>
+</body>
+</html>
