@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styletestefisica.css">
+    <title>Página de Cadastro</title>
+</head>
+<body>
+    <header>
+        <h1>Pessoa Física</h1>
+    </header>
+    <h2>* campos obrigatórios</h2>
+    <section>
+        <form class="formulario" method="post" action="">
+            <div class="nome">
+                <label for="nome"><span>* </span>Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+            </div>
+            <div class="sobrenome">
+                <label for="sobrenome"><span>* </span>Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome" required>
+            </div>
+            <div class="cpf">
+                <label for="cpf"><span>* </span>CPF</label>
+                <input type="number" name="cpf" id="cpf" placeholder="Digite seu CPF" required>
+            </div>
+            <div class="rg">
+                <label for="rg"><span>* </span>RG</label>
+                <input type="number" name="rg" id="rg" placeholder="Digite seu RG" required>
+            </div>
+            <div class="endereco">
+                <label for="endereco">Endereço</label>
+                <input type="text" name="endereco" id="endereco" placeholder="Digite seu endereço">
+            </div>
+            <div class="telefone">
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone">
+            </div>
+            <div class="btn">
+                <input type="submit" value="Enviar">
+            </div>
+            <a href="./index.html" target="_self"><div class="voltar">Voltar</div></a>
+        </form>
+    </section>
+</body>
+</html>
