@@ -6,22 +6,23 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="./newstyleindex.css">
+<link rel="stylesheet" href="./index.css">
 <title>Página de login</title>
 </head>
 
 <body>
-    <main>
-        <div class="bem_vindo">
+    <div class="container">
+        <header>
             <h1>Bem-Vindo</h1>
             <h2>Cadastre-se ou faça seu login agora mesmo</h2>
-            <a href="./entrar.html" target="_self"><div class="entrar">Entrar</div></a>
-        </div>
-        <div class="cadastrar">
-            <h4>Cadastrar sua conta</h4>
-            <a href="./testefisica.html"  target="_self"><div class="btn_fisica">Pessoa física</div></a>
-            <a href="./testejuridica.html"  target="_self"><div class="btn_juridica">Pessoa jurídica</div></a>
-        </div>
-    </main>
+            <a href="./login.html" target="_self" class="login"><div class="btn_login">Login</div></a>
+        </header>
+        <main>
+            <h3>Cadastrar sua conta</h3>
+            <!-- Colocar span no lugar da div -->
+            <a href="./fisica.html" target="_self"><div class="btn_fisica">Pessoa física</div></a>
+            <a href="./juridica.html"  target="_self"><div class="btn_juridica">Pessoa jurídica</div></a>
+        </main>
+    </div>
 </body>
 </html>
