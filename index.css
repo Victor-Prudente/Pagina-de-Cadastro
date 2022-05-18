@@ -21,12 +21,12 @@ body{
 }
 
 header{
-    background-color: #579AFF;
+    background-color: #624AFF;
     border-radius: 26px 0px 0px 26px;
 }
 
 main{
-    background-color: wheat;
+    background-color: #579AFF;
     border-radius: 0px 26px 26px 0px;
 }
 
@@ -61,17 +61,16 @@ a{
 
 h3{
     text-align: center;
-    color: #579AFF;
+    color: whitesmoke;
     font-size: 36px;
 }
 
 .btn_fisica{
     background-color: #579AFF;
-    width: 182px;
-    height: 50px;
+    border: 2px solid whitesmoke;
     border-radius: 20px;
     text-align: center;
-    line-height: 50px;
+    line-height: 60px;
     color: whitesmoke;
     font-size: 40px;
     float: left;
@@ -81,8 +80,8 @@ h3{
     margin:10px;
     display:flex;
     flex-direction:row;
-    width:300px;
-    height:80px; 
+    width:280px;
+    height:60px; 
     padding: 15px; 
     align-items: center;
     justify-content: center;      
@@ -90,11 +89,10 @@ h3{
 
 .btn_juridica{
     background-color: #579AFF;
-    width: 182px;
-    height: 50px;
+    border: 2px solid whitesmoke;
     border-radius: 20px;
     text-align: center;
-    line-height: 50px;
+    line-height: 60px;
     color: whitesmoke;
     font-size: 40px;
     float: right;
@@ -104,10 +102,42 @@ h3{
     margin:10px;
     display:flex;
     flex-direction:row;
-    width:300px;
-    height:80px;
+    width:280px;
+    height:60px;
     padding: 15px;
     align-items: center;
     justify-content: center;  
 }
 
+.tabela {
+    display: flex;
+    flex-direction: center;
+    margin-top: 300px;
+}
+
+table{
+    width: 580px;
+    line-height: 20px;
+    display: table;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+
+/*(.table{
+    width:100%;}
+
+td form {
+    margin:0;padding:0;
+}
+td form button.button{
+    padding:0.25em;margin:0.25em;
+    background:none;
+    color:blue;
+}
+td form button.button:hover{
+  background:none;
+    color:steelblue;
+}*/
