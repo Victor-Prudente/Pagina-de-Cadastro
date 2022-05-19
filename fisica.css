@@ -84,6 +84,11 @@ form input[type=submit]{
     font-size: 16px;
 }
 
+.voltar:hover, .btn:hover {
+    background-color: whitesmoke;
+    color: #579aff;
+}
+
 a{
     text-decoration: none;
     color: white;
