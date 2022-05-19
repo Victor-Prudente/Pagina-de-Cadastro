@@ -1,143 +1,210 @@
-html, body{
+/*VERSÃO DESKTOP, NOTEBOOK E TABLET*/
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
+body {
+    background-color: silver;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.container{
-    padding-bottom: 20px;
-    padding-top: 20px;
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: 600px;
-    justify-content: center;
-    align-content: center;
-    padding-left: 10%;
-    padding-right: 10%;   
-}
-
-header{
-    background-color: #624AFF;
-    border-radius: 26px 0px 0px 26px;
-}
-
-main{
-    background-color: #579AFF;
-    border-radius: 0px 26px 26px 0px;
-}
-
-h1{
-    text-align: center;
-    padding-top: 250px;
-    color: whitesmoke;
-    font-size: 36px;
-}
-
-h2{
-    padding-top: 20px;
-    color: rgb(37, 37, 37);
-    font-size: 20px;
-    text-align: center;
-}
-
-a{
-    text-decoration: none;
-}
-
-.btn_login{
-    border: 2px solid whitesmoke;
-    border-radius: 20px;
-    text-align: center;
-    line-height: 50px;
-    color: whitesmoke;
-    font-size: 20px;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-h3{
-    text-align: center;
-    color: whitesmoke;
-    font-size: 36px;
-}
-
-.btn_fisica{
-    background-color: #579AFF;
-    border: 2px solid whitesmoke;
-    border-radius: 20px;
-    text-align: center;
-    line-height: 60px;
-    color: whitesmoke;
-    font-size: 40px;
-    float: left;
-    margin-right: 17px;
-    margin-top: 5px;
-    margin-left: 5px;  
-    margin:10px;
-    display:flex;
-    flex-direction:row;
-    width:280px;
-    height:60px; 
-    padding: 15px; 
-    align-items: center;
-    justify-content: center;      
-}
-
-.btn_juridica{
-    background-color: #579AFF;
-    border: 2px solid whitesmoke;
-    border-radius: 20px;
-    text-align: center;
-    line-height: 60px;
-    color: whitesmoke;
-    font-size: 40px;
-    float: right;
-    margin-top: 5px;
-    margin-left: 5px;
-    text-align:center;
-    margin:10px;
-    display:flex;
-    flex-direction:row;
-    width:280px;
-    height:60px;
-    padding: 15px;
-    align-items: center;
-    justify-content: center;  
-}
-
-.tabela {
+.container {
     display: flex;
-    flex-direction: center;
-    margin-top: 300px;
-}
-
-table{
-    width: 580px;
-    line-height: 20px;
-    display: table;
-    text-align: center;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    justify-items: center;
+    width: 100vw;
+    height: 100vh;
 }
 
-
-/*(.table{
-    width:100%;}
-
-td form {
-    margin:0;padding:0;
+.header {
+    flex: 0 0 auto;
+    width: 20vw;
+    height: 80vh;
+    background-color: #579aff;
+    text-align: center;
+    border-radius: 15px 0px 0px 15px;
 }
-td form button.button{
-    padding:0.25em;margin:0.25em;
-    background:none;
-    color:blue;
+
+h1 {
+    padding-top: 30vh;
+    font-size: 28px;
+    font-weight: bold;
+    color: whitesmoke;
 }
-td form button.button:hover{
-  background:none;
-    color:steelblue;
-}*/
+
+p {
+    padding-top: 10vh;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn-procurar {
+    background-color: transparent;
+    border-radius: 15px;
+    border: 1px solid whitesmoke;
+    padding: 10px 50px;
+    cursor: pointer;
+    color: whitesmoke;
+    margin-top: 10vh;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-procurar:hover {
+    background-color: whitesmoke;
+    color: #579aff;
+}
+
+.main {
+    flex: 0 0 auto;
+    width: 60vw;
+    height: 80vh;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 0px 15px 15px 0px;
+}
+
+h2 {
+    color: #579aff;
+    font-weight: bold;
+    font-size: 28px;
+    padding-top: 5%;
+}
+
+.btn-fisica, .btn-juridica {
+    background-color: #579aff;
+    border-radius: 15px;
+    border: 1px solid #579aff;
+    padding: 10px 50px;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    color: whitesmoke;
+    margin-top: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-fisica:hover, .btn-juridica:hover {
+    background-color: whitesmoke;
+    color: #579aff;
+}
+
+table {
+    width: 100%;
+    margin-top: 10vh;
+    height: 250px;
+}
+
+table, th, td {
+    border: 1px solid whitesmoke;
+    border-spacing: 0;
+    color: whitesmoke;
+    background-color: #579aff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.col-1, .col-2, .col-4, .col-5 {
+    width: 15%;
+}
+
+.col-3 {
+    width: 40%;
+}
+
+.vazia {
+    background-color: transparent;
+}
+
+.btn-editar-excluir {
+    background-color: #579aff;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+    padding: 0% 10px;
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-editar-excluir:hover {
+    background-color: whitesmoke;
+    color: #579aff;
+    border: 1px solid #579aff;
+}
+
+/*VERSÃO MOBILE*/
+
+@media screen and (max-width: 850px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 20vh;
+        border-radius: 0;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    h1 {
+        padding-top: 15px;
+        font-size: 20px;
+    }
+
+    p {
+        padding-top: 10px;
+        font-size: 14px;
+    }
+
+    .btn-procurar {
+        margin-top: 10px;
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    .main {
+        width: 100%;
+        height: 80vh;
+        border-radius: 0;
+    }
+
+    h2 {
+        padding-top: 20px;
+        font-size: 20px;
+    }
+
+    .btn-fisica, .btn-juridica {
+        margin-top: 10px;
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    table, th, td {
+        font-size: 14px;
+    }
+    
+    table {
+        margin-top: 30px;
+    }
+
+    .btn-editar-excluir {
+        font-size: 14px;
+    }
+}
